@@ -56,3 +56,21 @@ a {
   border-radius: 5px;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
 }
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode header {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode nav ul li a {
+  color: #f1f1f1;
+}
+
+body.dark-mode .screenshot-gallery img {
+  border-color: #444;
+  box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.1);
+}
