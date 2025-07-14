@@ -3,7 +3,7 @@
 <head>
   <title>Biju George - Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  
 </head>
 <body>
   <header>
@@ -29,28 +29,21 @@
         <li><strong>MS Access Inventory System:</strong> A desktop database to manage inventory, orders, and restock alerts. Includes forms, reports, and VBA automation.</li>
       </ul>
       <h3>Access Project Screenshots</h3>
-        <div class="screenshot-gallery">
-          <a href="form.png" target="_blank">
-            <img src="form.png" alt="Form Screenshot">
-         </a>
-          <a href="report.png" target="_blank">
-            <img src="report.png" alt="Report Screenshot">
-          </a>
-          <a href="vba.png" target="_blank">
-            <img src="vba.png" alt="VBA Screenshot">
-          </a>
-        </div>
+      <div class="carousel">
+        <img id="carousel-image" src="form.png" alt="Screenshot" />
+      </div>
+
     </section>
     <section id="contact">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:bijug07@outlook.com">bijug07@outlook.com</a></p>
       <p>Location: Madison, WI</p>
     </section>
-    <button onclick="greetUser()">Click Me!</button>
+    <button id="click-me" onclick="greetUser()">Click Me!</button>
   </main>
   <footer>
   <p>Current Time: <span id="live-clock"></span></p>
   </footer>
-
+<script src="script.js"></script>
 </body>
 </html>

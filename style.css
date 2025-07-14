@@ -95,6 +95,10 @@ body.dark-mode .screenshot-gallery img {
   background-color: #004999;
 }
 
+#click-me {
+  border-radius: 5px;
+  color:darkblue
+}
 body.dark-mode #toggle-theme {
   background-color: #444;
   color: #eee;
@@ -112,5 +116,17 @@ footer {
 
 body.dark-mode footer {
   background-color: #1e1e1e;
-  color: #eee;
+  color: #ffff00;
+}
+.carousel {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.carousel img {
+  width: 400px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
