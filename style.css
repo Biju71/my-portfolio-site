@@ -64,8 +64,11 @@ body.dark-mode {
 
 body.dark-mode header {
   background-color: #1e1e1e;
+  color: #ffff00
 }
-
+body.dark-mode h2 {
+  color: #ffff00;
+}
 body.dark-mode nav ul li a {
   color: #f1f1f1;
 }
@@ -99,4 +102,15 @@ body.dark-mode #toggle-theme {
 
 body.dark-mode #toggle-theme:hover {
   background-color: #666;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+body.dark-mode footer {
+  background-color: #1e1e1e;
+  color: #eee;
 }
