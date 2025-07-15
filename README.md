@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio site, built using HTML, CSS, and JavaScript. This website showcases my transition into the IT field and highlights key projects, including web design and database solutions.
 
-🌐 **Live Website**: [https://bijugeorge.github.io](https://bijugeorge.github.io)
+🌐 **Live Website**: [https://bijgeorge.github.io](https://bijgeorge.github.io)
 
 ---
 
