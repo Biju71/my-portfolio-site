@@ -28,12 +28,12 @@ Welcome to my personal portfolio site, built using HTML, CSS, and JavaScript. Th
 ---
 ## 📂 Project Structure
 - my-portfolio-site/
-- index.html          # Main webpage
-- style.css           # Styling
-- script.js           # JavaScript features
-- form.png            # Access form screenshot
-- report.png          # Access report screenshot
-- vba.png             # Access VBA screenshot
+  - index.html          # Main webpage
+  - style.css           # Styling
+  - script.js           # JavaScript features
+  - form.png            # Access form screenshot
+  - report.png          # Access report screenshot
+  - vba.png             # Access VBA screenshot
 ---
 
 ## 📸 Access Database Project
