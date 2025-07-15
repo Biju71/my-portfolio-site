@@ -118,14 +118,43 @@ body.dark-mode footer {
   background-color: #1e1e1e;
   color: #ffff00;
 }
+
 .carousel {
-  text-align: center;
   margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the left */
+  gap: 10px;
 }
 
+
+.carousel button {
+  padding: 10px 16px;
+  font-size: 14px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel button:hover {
+  background-color: #004999;
+}
+
+body.dark-mode .carousel button {
+  background-color: #444;
+  color: #eee;
+}
+
+body.dark-mode .carousel button:hover {
+  background-color: #666;
+}
 .carousel img {
   width: 400px;
-  height: auto;
+  height: 250px;
+  object-fit: cover;
   border: 2px solid #ccc;
   border-radius: 8px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);

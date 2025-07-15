@@ -25,10 +25,24 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentIndex = 0;
   const imgElement = document.getElementById("carousel-image");
 
-  function showNextImage() {
-    currentIndex = (currentIndex + 1) % screenshots.length;
-    imgElement.src = screenshots[currentIndex];
+  function showImage(index) {
+    imgElement.src = screenshots[index];
   }
 
+  function showNextImage() {
+    currentIndex = (currentIndex + 1) % screenshots.length;
+    showImage(currentIndex);
+  }
+
+  function showPrevImage() {
+    currentIndex = (currentIndex - 1 + screenshots.length) % screenshots.length;
+    showImage(currentIndex);
+  }
+
+  // Auto-rotate every 3 seconds
   setInterval(showNextImage, 3000);
+
+  // Button click events
+  document.getElementById("next-btn").addEventListener("click", showNextImage);
+  document.getElementById("prev-btn").addEventListener("click", showPrevImage);
 });
