@@ -3,7 +3,7 @@
 Welcome to my personal portfolio site, built using HTML, CSS, and JavaScript. I’m building strong front-end development skills with HTML, CSS, and JavaScript, along with MS Access for data-driven applications. I enjoy crafting clean, responsive websites and improving user experience through DOM manipulation and UI/UX design principles.
 
 
-🌐 **Live Website**: [https://bijgeorge.github.io](https://bijgeorge.github.io)
+🌐 **Live Website**: [https://biju71.github.io/my-portfolio-site/](https://biju71.github.io/my-portfolio-site/)
 
 ---
 
@@ -27,10 +27,14 @@ Welcome to my personal portfolio site, built using HTML, CSS, and JavaScript. I�
 - **Microsoft Access** – Backend database demo (desktop only)
 
 ---
-## 📂 Projects Included
-- **Portfolio Website** – A responsive webpage with sections for About Me, Projects, and Contact
-- **MS Access Inventory System** – Desktop database with forms, reports, and VBA automation  
-  ➤ Screenshots available in the “Projects” section
+## 📂 Project Structure
+my-portfolio-site/
+├── index.html          # Main webpage
+├── style.css           # Styling
+├── script.js           # JavaScript features
+├── form.png            # Access form screenshot
+├── report.png          # Access report screenshot
+├── vba.png             # Access VBA screenshot
 ---
 
 ## 📸 Access Database Project
