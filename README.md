@@ -1,6 +1,7 @@
 # 💼 Biju George - Portfolio Website
 
-Welcome to my personal portfolio site, built using HTML, CSS, and JavaScript. This website showcases my transition into the IT field and highlights key projects, including web design and database solutions.
+Welcome to my personal portfolio site, built using HTML, CSS, and JavaScript. I’m building strong front-end development skills with HTML, CSS, and JavaScript, along with MS Access for data-driven applications. I enjoy crafting clean, responsive websites and improving user experience through DOM manipulation and UI/UX design principles.
+
 
 🌐 **Live Website**: [https://bijgeorge.github.io](https://bijgeorge.github.io)
 
