@@ -3,7 +3,7 @@
 Welcome to my personal portfolio site, built using HTML, CSS, and JavaScript. I’m building strong front-end development skills with HTML, CSS, and JavaScript, along with MS Access for data-driven applications. I enjoy crafting clean, responsive websites and improving user experience through DOM manipulation and UI/UX design principles.
 
 
-🌐 **Live Website**: [https://biju71.github.io/my-portfolio-site/](https://biju71.github.io/my-portfolio-site/)
+🌐 **Live Website**: https://github.com/bijgeorge/bijgeorge.github.io
 
 ---
 
