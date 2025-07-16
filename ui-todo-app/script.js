@@ -11,8 +11,13 @@ recognition.onresult = function(event) {
 };
 
 micBtn.addEventListener("click", () => {
+  micBtn.classList.add("recording");
   recognition.start();
 });
+
+recognition.onend = function () {
+  micBtn.classList.remove("recording");
+};
 
 addBtn.addEventListener("click", addTask);
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
   <meta charset="UTF-8">
   <title>To-Do App</title>
@@ -8,12 +9,19 @@
 <body>
   <div class="container">
     <h1>📝 To-Do List</h1>
+      <p class="instructions">
+        👉 Type a task and click <strong>➕</strong> to add it. 
+        Or <br> 👉 click <strong>🎤</strong> to speak your task using voice!
+        <br>
+        Tap a task to mark it done ✅ or click ❌ to delete.
+      </p>
 
     <!-- 🔁 Replace the old input & button section with this -->
     <div class="input-group">
       <input type="text" id="task-input" placeholder="Add a new task..." />
-      <button id="mic">🎤</button>
-      <button id="add-task">Add</button>
+      <button id="mic" title="Click to speak">🎤</button>
+      <button id="add-task" title="Add task">➕</button>
+
     </div>
 
     <ul id="task-list"></ul>

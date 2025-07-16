@@ -5,14 +5,15 @@ body {
   justify-content: center;
   padding-top: 50px;
 }
-
 .container {
   background-color: white;
-  padding: 20px 30px;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px #ccc;
-  width: 100%;
-  max-width: 400px;
+  width: 90%;              /* 💡 key change: responsive width */
+  max-width: 500px;        /* prevents it from getting too wide on desktops */
+  margin: 0 auto;          /* centers it */
+  box-sizing: border-box;
 }
 
 h1 {
@@ -76,4 +77,26 @@ li.completed {
 
 #mic:hover {
   background-color: #cc0000;      /* darker red on hover */
+}
+#mic.recording {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 77, 77, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(255, 77, 77, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 77, 77, 0);
+  }
+}
+.instructions {
+  font-size: 14px;
+  color: #555;
+  text-align: left;
+  margin-bottom: 15px;
+  line-height: 1.5;
 }
