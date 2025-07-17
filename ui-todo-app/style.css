@@ -6,7 +6,7 @@ body {
   padding-top: 50px;
 }
 .container {
-  background-color: white;
+  background-color:#f6f8fa;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px #ccc;
@@ -28,10 +28,10 @@ input {
 
 button {
   padding: 10px 16px;
-  border: solid 1px black;
+  border: solid 1px rgb(13, 46, 232);
   border-radius: 10px;
-  background-color: #d3e67e;   
-  color: black;
+  background-color: #e9eaeb;   
+  color: rgb(248, 246, 246);
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -64,9 +64,9 @@ li.completed {
   align-items: center;
 }
 #mic {
-  background-color: #d3e67e;      /* soft red */
+  background-color: #e9eaeb;      /* soft red */
   color: white;
-  border: solid 1px black;
+  border: solid 1px rgb(19, 6, 161);
   border-radius: 10px;            /* more rounded corners */
   padding: 10px 16px;             /* gives it rectangular shape */
   margin-right: 10px;
@@ -96,6 +96,7 @@ li.completed {
 .instructions {
   font-size: 14px;
   color: #555;
+  padding-left: 50px;
   text-align: left;
   margin-bottom: 15px;
   line-height: 1.5;
