@@ -14,12 +14,7 @@ A simple, stylish, and responsive **To-Do List** web app with voice input suppor
 - 🎨 Stylish interface with **Dark Mode**
 - 📦 LocalStorage: Saves your tasks between visits
 - 🔄 PWA support – install like a native app and work offline
-- 🕒 Live Clock, interactive UI elements
-- 🖼️ Screenshot carousel with animations
-
----
-
-
+  
 ---
 
 ## 📱 How to Use
@@ -27,9 +22,8 @@ A simple, stylish, and responsive **To-Do List** web app with voice input suppor
 1. **Add a Task**: Type into the box or use the 🎤 mic button
 2. **Complete a Task**: Click the checkbox ✅
 3. **Delete**: Click ❌
-4. **Dark Mode**: Toggle in the top-right
-5. **Voice Input**: Tap mic and speak (e.g., “Buy groceries”)
-6. **Install App**:
+4. **Voice Input**: Tap mic and speak (e.g., “Buy groceries”)
+5. **Install App**:
    - On mobile/desktop → Tap "Add to Home Screen"
 
 ---
@@ -41,14 +35,6 @@ A simple, stylish, and responsive **To-Do List** web app with voice input suppor
 - DOM manipulation
 - LocalStorage API
 - PWA (manifest + service worker)
-
----
-
-## 📸 Screenshots
-
-| Form | Report | VBA |
-|------|--------|-----|
-| ![Form](screenshots/form.png) | ![Report](screenshots/report.png) | ![VBA](screenshots/vba.png) |
 
 ---
 
