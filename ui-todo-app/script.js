@@ -21,6 +21,31 @@ recognition.onend = function () {
   micBtn.classList.remove("recording");
 };
 
+// ✅ Toggle Instructions
+window.addEventListener("DOMContentLoaded", () => {
+  const helpBtn = document.getElementById("helpBtn");
+  const instructions = document.getElementById("instructions");
+
+helpBtn.addEventListener("click", () => {
+  instructions.classList.toggle("hidden");
+
+  if (instructions.classList.contains("hidden")) {
+    helpBtn.textContent = "How to Use";
+  } else {
+    helpBtn.textContent = "🔽 Hide Instructions";
+  }
+});
+
+const darkToggle = document.getElementById("darkModeToggle");
+
+darkToggle.addEventListener("change", () => {
+  document.body.classList.toggle("dark", darkToggle.checked);
+});
+
+
+});
+
+
 // ✅ Load tasks when page loads
 window.addEventListener("load", loadTasks);
 
@@ -89,3 +114,10 @@ if ("serviceWorker" in navigator) {
       .catch(err => console.error("Service Worker registration failed:", err));
   });
 }
+function updateClock() {
+  const now = new Date();
+  const clockEl = document.getElementById("liveClock");
+  clockEl.textContent = now.toLocaleTimeString();
+}
+setInterval(updateClock, 1000);
+updateClock();
